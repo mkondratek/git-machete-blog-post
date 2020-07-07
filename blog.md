@@ -6,7 +6,7 @@ Despite the many benefits of the provided IDE and VCS integration,
 the state of more extensive repositories often gets difficult to interpret and non-intuitive.
 
 
-In view of these inconveniences, a company [VirtusLab](https://virtuslab.com/) created a plugin  — 
+Given these inconveniences, a company [VirtusLab](https://virtuslab.com/) created a plugin  — 
 **a git repository organizer, and a rebase automation tool, named Git Machete.**
 
 
@@ -16,6 +16,11 @@ and their relationship to the remote repository.
 Moreover, it provides both diagnostic and corrective functionalities 
 for the shape of the repository and the relationships mentioned. 
 It finds an exceptional application in maintaining the linear history of the Git. 
+
+---
+_In general, Git Machete is a tool that helps manage multiple branches within a git repository 
+and thus promotes the creation of smaller &amp; more focused pull requests that are easier to review._
+
 
 ### Git Machete Status Graph
 
@@ -30,25 +35,18 @@ A line holds a part of the whole graph (the description of colors comes with the
 a name of a branch, an optional custom annotation, and relation to the remote branch. 
 
 
-![Git Machete Help](help_dark.png "Git Machete Help")
-
 Without going into details, the green edge indicates the desired state -
 the first commit of a child branch is the direct descendant of the parent's last commit.
-
----
-_In general, Git Machete is a tool that helps manage multiple branches within a git repository 
-and thus promotes the creation of smaller pull requests that are (usually) easier to review._
-
 
 ### Machete File
 
 ![Machete file](machete_file.png "Machete file")
 
-The branches presented within the graph are being defined by a special configuration file (`.git/machete`).
+The branches presented within the graph are defined in a very simple configuration file (`.git/machete`).
 
 The file can be easily opened from the plugin's toolbar.
 It supports both syntax highlight and local branch names completion.
-The file listens to changes to itself and allows to refresh the table.
+The graph is automatically refreshed when `.git/machete` is modified.
 
 ### Lights, Camera... Actions
 
@@ -63,7 +61,7 @@ that performs interactive rebase of a given branch onto its parent, `Push` and `
 ### Try it now
 
 The plugin is available from the [Marketplace](https://plugins.jetbrains.com/plugin/14221-git-machete "Jet Brains Marketplace - Git Machete Plugin").
-For additional references see the GitHub [page](https://github.com/VirtusLab/git-machete-intellij-plugin "GitHub - Git Machete") too. 
+For additional references see the project on [GitHub](https://github.com/VirtusLab/git-machete-intellij-plugin#git-machete-intellij-plugin "GitHub - Git Machete").
 
 ---
 _If you work with a git rebase flow, Git Machete will (vastly!) help you manage 
