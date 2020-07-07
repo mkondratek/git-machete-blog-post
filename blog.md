@@ -1,9 +1,9 @@
 ## Take a look at your repository from a new perspective with Git Machete Plugin!
 
-Git and IntelliJ-based software are currently one of the most important tools in software development.
+Git and IntelliJ-based software is currently one of the most important tools in software development.
 The version control system provided with the IDE allows the undertaking of numerous necessary actions. 
-By focusing on commits in its presentation, 
-it makes the state of more extensive repositories difficult to interpret and non-intuitive.
+Despite the many benefits of the provided IDE and VCS integration, 
+the state of more extensive repositories often gets difficult to interpret and non-intuitive.
 
 
 In view of these inconveniences, a company [VirtusLab](https://virtuslab.com/) created a plugin  — 
@@ -11,7 +11,7 @@ In view of these inconveniences, a company [VirtusLab](https://virtuslab.com/) c
 
 
 It allows looking at the state of the repository from a previously inexperienceable perspective.
-It is not about commits, but branches, their relationship to each other, 
+It puts the primary focus on branches (rather than commits), their relationship to each other, 
 and their relationship to the remote repository. 
 Moreover, it provides both diagnostic and corrective functionalities 
 for the shape of the repository and the relationships mentioned. 
@@ -26,7 +26,7 @@ It contains two **root branches**: _develop_ and _master_.
 The first of them has two **child branches**: _allow-ownership-link_ 
 (with another child branch - _build-chain_), and _call-ws_.
 
-A line (a cell) holds a part of the whole graph (the description of colors comes with the next picture),
+A line holds a part of the whole graph (the description of colors comes with the next picture),
 a name of a branch, an optional custom annotation, and relation to the remote branch. 
 
 
