@@ -40,7 +40,7 @@ the first commit of a child branch is the direct descendant of the parent's last
 
 ### Machete File
 
-![Machete file](machete_file.png "Machete file")
+![Machete file](machete-file_dark.png "Machete file")
 
 The branches presented within the graph are defined in a very simple configuration file (`.git/machete`).
 
@@ -50,12 +50,34 @@ The graph is automatically refreshed when `.git/machete` is modified.
 
 ### Lights, Camera... Actions
 
-![Git Machete - Actions](actions.png "Git Machete - Actions")
-
 The plugin provides a bunch of actions that can help you to manage your repository.
 
 Among the others, there is `Rebase branch onto parent` 
 that performs interactive rebase of a given branch onto its parent, `Push` and `Pull`.
+Let's have a look at the following example...
+
+![Git Machete - Actions](actions-slim_dark.png "Git Machete - Actions")
+
+
+Branch `allow-ownership-link` is **out of sync** (red edge) to its parent - `develop`.
+Furthermore, it is **ahead of** its remote branch.
+With Git Machete we can quickly and comfortably lead it to a more natural state. 
+
+
+First, `Checkout and Rebase Branch Onto Parent`.
+This will perform a well-known interactive rebase from IntelliJ.
+Once the rebase is finished the branch is now **in sync** (green edge) with its parent.
+
+
+Second, `Push Branch...`. 
+This action opens a usual push dialog.
+After a successful push, the remote branch is **up to date** with its remote branch.
+
+
+The final repository status is shown below.
+
+
+![Git Machete - Actions](actions-slim-after_dark.png "Git Machete - Actions")
 
 
 ### Try it now
