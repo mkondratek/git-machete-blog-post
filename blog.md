@@ -3,10 +3,10 @@
 Git and IntelliJ-based software is currently one of the most important tools in software development.
 The version control system provided with the IDE allows the undertaking of numerous necessary actions. 
 Despite the many benefits of the provided IDE and VCS integration, 
-the state of more extensive repositories often gets difficult to interpret and non-intuitive.
+the state of more extensive repositories often gets non-intuitive and difficult to interpret.
 
 
-Given these inconveniences, a company [VirtusLab](https://virtuslab.com/) created a plugin  — 
+Given these inconveniences, [VirtusLab](https://virtuslab.com/) created a plugin  — 
 **a git repository organizer, and a rebase automation tool, named Git Machete.**
 
 
@@ -15,7 +15,7 @@ It puts the primary focus on branches (rather than commits), their relationship 
 and their relationship to the remote repository. 
 Moreover, it provides both diagnostic and corrective functionalities 
 for the shape of the repository and the relationships mentioned. 
-It finds an exceptional application in maintaining the linear history of the Git. 
+It finds an exceptional application in maintaining linear Git history.
 
 ---
 _In general, Git Machete is a tool that helps manage multiple branches within a git repository 
@@ -35,8 +35,14 @@ A line holds a part of the whole graph (the description of colors comes with the
 a name of a branch, an optional custom annotation, and relation to the remote branch. 
 
 
-Without going into details, the green edge indicates the desired state -
+Without going into details, the **green edge** indicates the desired state -
 the first commit of a child branch is the direct descendant of the parent's last commit.
+On the other hand, the **red edge** tells us the opposite -
+the first commit of a child branch is NOT the direct descendant of the parent's last commit.
+
+
+In most cases, an edge gets red after committing some changes to the parent branch (review fixes)
+or pulling changes from remote.
 
 ### Machete File
 
