@@ -2,10 +2,11 @@
 
 Git and IntelliJ-based software is currently one of the most important tools in software development.
 The version control system provided with the IDE allows the undertaking of numerous necessary actions. 
-Despite the many benefits of the provided IDE and VCS integration, 
-the state of more extensive repositories often gets non-intuitive and difficult to interpret.
+Among the many useful benefits of the provided IDE and VCS integration,
+the newest (introduced with IDEA 2020.2) full support of GitHub Pull Requests must be mentioned.
 
 
+It is natural that the state of more extensive repositories often gets non-intuitive and difficult to interpret over time.
 Given these inconveniences, [VirtusLab](https://virtuslab.com/) created a plugin  — 
 **a git repository organizer, and a rebase automation tool, named Git Machete.**
 
