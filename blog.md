@@ -78,7 +78,7 @@ Once the rebase is finished the branch is now **in sync** (green edge) with its 
 
 | VCS Log Rebase | Git Machete Rebase |
 | --- | --- |
-| ![Git Machete - Rebase](rebase-idea_dark.gif "Rebase From VCS Log") |  ![Git Machete - Rebase](rebase-gm_dark.gif "Rebase From Git Machete") |
+| ![Git Machete - Rebase](rebase-idea_dark-4x3.gif "Rebase From VCS Log") |  ![Git Machete - Rebase](rebase-gm_dark-4x3.gif "Rebase From Git Machete") |
 
 
 Second, `Push Branch...`. 
