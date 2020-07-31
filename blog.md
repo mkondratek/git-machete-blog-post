@@ -63,7 +63,7 @@ Among the others, there is `Rebase branch onto parent`
 that performs interactive rebase of a given branch onto its parent, `Push` and `Pull`.
 Let's have a look at the following example...
 
-![Git Machete - Actions](actions-slim_dark.png "Git Machete - Actions")
+![Git Machete - Actions](actions-before_dark.png "Git Machete - Actions - Before")
 
 
 Branch `allow-ownership-link` is **out of sync** (red edge) to its parent - `develop`.
@@ -84,7 +84,7 @@ After a successful push, the remote branch is **up to date** with its remote bra
 The final repository status is shown below.
 
 
-![Git Machete - Actions](actions-slim-after_dark.png "Git Machete - Actions")
+![Git Machete - Actions](actions-after_dark.png "Git Machete - Actions - After")
 
 
 ### Try it now
