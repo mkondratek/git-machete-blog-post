@@ -75,9 +75,11 @@ This will perform an interactive rebase from IntelliJ.
 Once the rebase is finished the branch is now **in sync** (green edge) with its parent.
 
 
-| VCS Log Rebase | Git Machete Rebase |
-| --- | --- |
-| ![Git Machete - Rebase](rebase-idea_dark-4x3.gif "Rebase From VCS Log") |  ![Git Machete - Rebase](rebase-gm_dark-4x3.gif "Rebase From Git Machete") |
+#### VCS Log Rebase 
+![Git Machete - Rebase](rebase-idea_dark-4x3.gif "Rebase From VCS Log")
+
+#### Git Machete Rebase 
+![Git Machete - Rebase](rebase-gm_dark-4x3.gif "Rebase From Git Machete")
 
 
 Now all that's left is to `Push Branch...`. 
