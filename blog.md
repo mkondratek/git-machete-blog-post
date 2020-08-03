@@ -6,8 +6,9 @@ Among the many useful benefits of the provided IDE and VCS integration,
 the newest (introduced with IDEA 2020.2) full support of GitHub Pull Requests must be mentioned.
 
 
-It is natural that the state of more extensive repositories often gets non-intuitive and difficult to interpret over time.
-Given these inconveniences, [VirtusLab](https://virtuslab.com/) created a plugin  — 
+It is natural that the state of repositories often gets non-intuitive and difficult to interpret over time.
+On the other hand, creating and maintaining small, focused, easy-to-review PRs is a comfortable and wanted approach.
+Given these inconveniences and desires, [VirtusLab](https://virtuslab.com/) created a plugin  — 
 **a git repository organizer, and a rebase automation tool, named Git Machete.**
 
 
@@ -17,10 +18,8 @@ and their relationship to the remote repository.
 Moreover, it provides both diagnostic and corrective functionalities 
 for the shape of the repository and the relationships mentioned. 
 It finds an exceptional application in maintaining linear Git history.
-
----
-_In general, Git Machete is a tool that helps manage multiple branches within a git repository 
-and thus promotes the creation of smaller &amp; more focused pull requests that are easier to review._
+In general, Git Machete is a tool that helps manage multiple branches within a git repository 
+and thus promotes the creation of smaller &amp; more focused pull requests that are easier to review.
 
 
 ### Git Machete Status Graph
@@ -37,9 +36,9 @@ a name of a branch, an optional custom annotation, and relation to the remote br
 
 
 Without going into details, the **green edge** indicates the desired state -
-the first commit of a child branch is the direct descendant of the parent's last commit.
+the first commit of a child branch is the direct descendant of the parent branch tip.
 On the other hand, the **red edge** tells us the opposite -
-the first commit of a child branch is NOT the direct descendant of the parent's last commit.
+the first commit of a child branch is NOT the direct descendant of the parent branch tip.
 
 
 In most cases, an edge gets red after committing some changes to the parent branch (review fixes)
@@ -60,19 +59,19 @@ The graph is automatically refreshed when `.git/machete` is modified.
 The plugin provides a bunch of actions that can help you to manage your repository.
 
 Among the others, there is `Rebase branch onto parent` 
-that performs interactive rebase of a given branch onto its parent, `Push` and `Pull`.
+(that performs interactive rebase of a given branch onto its parent), `Push` and `Pull`.
 Let's have a look at the following example...
 
 ![Git Machete - Actions](actions-before_dark.png "Git Machete - Actions - Before")
 
 
 Branch `allow-ownership-link` is **out of sync** (red edge) to its parent - `develop`.
-Furthermore, it is **ahead of** its remote branch.
-With Git Machete we can quickly and comfortably lead it to a more natural state. 
+Furthermore, it is **ahead of** its remote branch (`origin/develop`).
+With Git Machete we can quickly and comfortably lead it to a desired state. 
 
 
 First, `Checkout and Rebase Branch Onto Parent`.
-This will perform a well-known interactive rebase from IntelliJ.
+This will perform an interactive rebase from IntelliJ.
 Once the rebase is finished the branch is now **in sync** (green edge) with its parent.
 
 
@@ -81,8 +80,8 @@ Once the rebase is finished the branch is now **in sync** (green edge) with its 
 | ![Git Machete - Rebase](rebase-idea_dark-4x3.gif "Rebase From VCS Log") |  ![Git Machete - Rebase](rebase-gm_dark-4x3.gif "Rebase From Git Machete") |
 
 
-Second, `Push Branch...`. 
-This action opens a usual push dialog.
+Now all that's left is to `Push Branch...`. 
+This action opens a (force) push dialog.
 After a successful push, the remote branch is **up to date** with its remote branch.
 
 
