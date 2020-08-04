@@ -96,7 +96,7 @@ The final repository status is shown below.
 ### Try it now
 
 The plugin is available from the [Marketplace](https://plugins.jetbrains.com/plugin/14221-git-machete "Jet Brains Marketplace - Git Machete Plugin").
-For additional references see the project on [GitHub](https://github.com/VirtusLab/git-machete-intellij-plugin#git-machete-intellij-plugin "GitHub - Git Machete").
+For additional reference, see the project on [GitHub](https://github.com/VirtusLab/git-machete-intellij-plugin#git-machete-intellij-plugin "GitHub - Git Machete").
 
 ---
 _If you work with a git rebase flow, Git Machete will (vastly!) help you manage 
