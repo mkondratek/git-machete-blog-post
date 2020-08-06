@@ -50,6 +50,10 @@ which be easily opened from the plugin's toolbar.
 It supports both syntax highlight and completion of local branch names.
 The graph is automatically refreshed when `.git/machete` is modified.
 
+Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree. 
+Feel free to use `Discover` functionality that will find it out for you automatically.
+It can be found within the empty graph table and via `Find Action...`.
+
 
 ### Lights, Camera... Actions
 
