@@ -51,8 +51,8 @@ It supports both syntax highlight and completion of local branch names.
 The graph is automatically refreshed when `.git/machete` is modified.
 
 Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree.
-Feel free to use `Discover` functionality that will find it out for you automatically.
-It can be found within the empty Git Machete Tab and via `Help -> Find Action... (default shortcut: Ctrl + Shift + A)`.
+Feel free to use `Discover Branch Layout` functionality that will find it out for you automatically.
+It can be performed from `Help -> Find Action...` (default shortcut: `Ctrl + Shift + A`).
 
 
 ### Lights, Camera... Actions
