@@ -55,7 +55,7 @@ The graph is automatically refreshed when `.git/machete` is modified.
 
 The plugin provides a bunch of actions that can help you to manage your repository.
 
-Among the others, there is `Rebase branch onto parent`
+Among the others, there is `Rebase onto parent`
 (that performs interactive rebase of a given branch onto its parent), `Push` and `Pull`.
 Let's have a look at the following example...
 
@@ -79,7 +79,7 @@ Once the rebase is finished the branch is now **in sync** (green edge) with its 
 ![Git Machete - Rebase](rebase-gm_dark-4x3.gif "Rebase From Git Machete")
 
 
-Now all that's left is to `Push Branch...`.
+Now all that's left is to `Push...`.
 This action opens a (force) push dialog. <br/>
 After a successful push, the remote branch is **up to date** with its remote branch.
 
