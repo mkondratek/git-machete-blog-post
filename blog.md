@@ -1,6 +1,6 @@
 ## Take a look at your repository from a new perspective with Git Machete Plugin!
 
-Git and IntelliJ-based software is currently one of the most important tools in software development.
+Git and IntelliJ-based software are currently one of the most important tools in software development.
 The version control system provided with the JetBrains's IDE products
 allows performing pretty much all everyday VCS actions directly via the IDE.
 Among the many useful benefits of the provided IDE and VCS integration,
@@ -8,15 +8,15 @@ the full support of GitHub Pull Requests introduced in IDEA 2020.2 must be empha
 
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
-[VirtusLab](https://virtuslab.com/) created a plugin that eases the management of 2+ branches in the repository
+We created a plugin that eases the management of 2+ branches in the repository
 while also promoting creation of small PRs &mdash;
 **a git repository organizer, and a rebase/merge/push/pull automation tool, named Git Machete.**
 
-It allows to look at the state of the repository from a previously inexperienceable perspective.
+It allows for looking at the state of the repository from a previously inexperienceable perspective.
 It puts the primary focus on branches (rather than commits), their relationship to each other,
 and their relationship to the remote repository.
 Moreover, it provides both diagnostic and corrective functionalities
-for the shape of the repository and the relationships mentioned.
+for the shape of the repository and the mentioned relationships.
 It finds an exceptional application in maintaining linear Git history.
 
 
@@ -46,8 +46,8 @@ or pulling new commits to the parent from a remote.
 ![Machete file](machete-file_dark.png "Machete file")
 
 The branches presented within the graph are defined in a very simple configuration file (`.git/machete`),
-which be easily opened from the plugin's toolbar.
-It supports both syntax highlight and completion of local branch names.
+which can be easily opened from the plugin's toolbar.
+It supports both syntax highlighting and completion of local branch names.
 The graph is automatically refreshed when `.git/machete` is modified.
 
 Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree.
