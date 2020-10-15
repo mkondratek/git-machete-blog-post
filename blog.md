@@ -3,8 +3,9 @@
 Git and IntelliJ-based software are currently one of the most important tools in software development.
 The version control system provided with the JetBrains's IDE products
 allows performing pretty much all everyday VCS actions directly via the IDE.
-Among the many useful benefits of the provided IDE and VCS integration,
-the full support of GitHub Pull Requests introduced in IDEA 2020.2 must be emphasized.
+Despite the many benefits of the provided IDE and VCS integration,
+the state of more extensive (in terms of branch count) repositories presented in Git Log
+often gets non-intuitive and difficult to interpret.
 
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
