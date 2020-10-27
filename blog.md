@@ -11,11 +11,11 @@ while also promoting creation of small PRs &mdash;
 **a git repository organizer, and a rebase/merge/push/pull automation tool, named Git Machete.**
 
 It allows for looking at the state of the repository from a previously inexperienceable perspective.
-It puts the primary focus on branches (rather than commits), their relationship to each other,
-and their relationship to the remote repository.
-Moreover, it provides both diagnostic and corrective functionalities
+It puts the primary focus on branches (rather than commits),
+their relationship to each other and also to the remote repository.
+Moreover, it gives both diagnostic and restorative functionalities
 for the shape of the repository and the mentioned relationships.
-It finds an exceptional application in maintaining linear Git history.
+It finds an outstanding application in maintaining linear Git history.
 
 
 ## Git Machete
@@ -36,14 +36,14 @@ The main features of the plugin are:
 The picture above presents the demo repository _filter-service_ with a few branches.
 It contains two **root branches**: _develop_ and _master_.
 The first of them has two **child branches**: _allow-ownership-link_
-(with another child branch - _build-chain_), and _call-ws_.
+(with another child branch &mdash; _build-chain_), and _call-ws_.
 
 Each line contains a name of a branch, an optional custom annotation, and relation to the remote branch.
 
-Without going into details, the **green edge** indicates the desired state -
+Without going into details, the **green edge** indicates the desired state &mdash;
 the tip of the child branch is a direct descendant of the parent branch tip
 (i.e. all commits reachable from the parent are also reachable from the child).<br/>
-On the other hand, the **red edge** tells us the opposite -
+On the other hand, the **red edge** tells us the opposite &mdash;
 the tip of the child branch is **not** a direct descendant of the parent branch tip.
 
 In most cases, an edge becomes red after committing some changes to the parent branch (review fixes)
@@ -62,27 +62,28 @@ The graph is automatically refreshed when `.git/machete` is modified.
 Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree.
 Feel free to use `Discover Branch Layout` functionality that will find it out for you automatically.
 It can be performed from `Help -> Find Action...` (default shortcut: `Ctrl + Shift + A`).
+Furthermore, the discover happens in the case of a missing or empty machete file
+(although the discovered layout might require some manual changes).
 
 
 #### Lights, Camera... Actions
 
 The plugin provides a bunch of actions that can help you to manage your repository.
 
-Among the others, there is `Rebase onto parent`
+Among the others, there is `Rebase onto Parent`
 (that performs interactive rebase of a given branch onto its parent), `Push` and `Pull`.
 Let's have a look at the following example...
 
 ![Git Machete - Actions](actions-before_dark.png "Git Machete - Actions - Before")
 
-
-Branch `allow-ownership-link` is **out of sync** (red edge) to its parent - `develop`.
+Branch `allow-ownership-link` is **out of sync** (red edge) to its parent &mdash; `develop`.
 Furthermore, it is **ahead of** its remote branch (`origin/develop`).
 With Git Machete we can quickly and conveniently lead it to a desired state.
 
 
 First, `Checkout and Rebase Branch Onto Parent`.
 This will perform an interactive rebase from IntelliJ.
-Once the rebase is finished the branch is now **in sync** (green edge) with its parent.
+Once the rebase is finished, the branch is **in sync** (green edge) with its parent.
 
 
 ##### VCS Log Rebase
@@ -129,7 +130,7 @@ This is exactly what Git Machete is promoting.
 ### The future of Git Machete
 
 Git Machete plugin is being developed and maintained continuously.
-We are doing our best to provide new features and react to the users' feedback.
+We are doing our best to provide new features and quickly react to the users' feedback.
 We are responding to the new issues and ideas.
 
 The feature that we are definitely aiming for now is the traverse functionality
