@@ -25,10 +25,10 @@ It finds an exceptional application in maintaining linear Git history.
 
 ![Git Machete Tab with demo repository](gmt_dark.png "Git Machete Tab")
 
-The picture above presents the demo repository _filter-service_ with a few branches.
-It contains two **root branches**: _develop_ and _master_.
-The first of them has two **child branches**: _allow-ownership-link_
-(with another child branch - _build-chain_), and _call-ws_.
+The picture above presents the demo repository `filter-service` with a few branches.
+It contains two **root branches**: `develop` and `master`.
+The first of them has two **child branches**: `allow-ownership-link`
+(with another child branch &mdash; `build-chain`), and `call-ws`.
 
 Each line contains a name of a branch, an optional custom annotation, and relation to the remote branch.
 
