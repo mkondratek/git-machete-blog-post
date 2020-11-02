@@ -60,7 +60,7 @@ It can be performed from `Help -> Find Action...` (default shortcut: `Ctrl + Shi
 
 The plugin provides a bunch of actions that can help you to manage your repository.
 
-Among the others, there is `Rebase onto parent`
+Among the others, there is `Rebase onto Parent`
 (that performs interactive rebase of a given branch onto its parent), `Push` and `Pull`.
 Let's have a look at the following example...
 
@@ -74,7 +74,7 @@ With Git Machete we can quickly and conveniently lead it to a desired state.
 
 First, `Checkout and Rebase Branch Onto Parent`.
 This will perform an interactive rebase from IntelliJ.
-Once the rebase is finished the branch is now **in sync** (green edge) with its parent.
+Once the rebase is finished the branch is **in sync** (green edge) with its parent.
 
 
 #### VCS Log Rebase
