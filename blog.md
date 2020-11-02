@@ -26,16 +26,16 @@ It finds an outstanding application in maintaining linear Git history.
 ![Git Machete Tab with demo repository](gmt_dark.png "Git Machete Tab")
 
 The picture above presents the demo repository `filter-service` with a few branches.
-It contains two **root branches**: `develop` and `master`.
-The first of them has two **child branches**: `allow-ownership-link`
+It contains two **root branches** &mdash; `develop` and `master`.
+The first of them has two **child branches** &mdash; `allow-ownership-link`
 (with another child branch &mdash; `build-chain`), and `call-ws`.
 
 Each line contains a name of a branch, an optional custom annotation, and relation to the remote branch.
 
-Without going into details, the **green edge** indicates the desired state -
+Without going into details, the **green edge** indicates the desired state &mdash;
 the tip of the child branch is a direct descendant of the parent branch tip
 (i.e. all commits reachable from the parent are also reachable from the child).<br/>
-On the other hand, the **red edge** tells us the opposite -
+On the other hand, the **red edge** tells us the opposite &mdash;
 the tip of the child branch is **not** a direct descendant of the parent branch tip.
 
 In most cases, an edge becomes red after committing some changes to the parent branch (review fixes)
@@ -67,7 +67,7 @@ Let's have a look at the following example...
 ![Git Machete - Actions](actions-before_dark.png "Git Machete - Actions - Before")
 
 
-Branch `allow-ownership-link` is **out of sync** (red edge) to its parent - `develop`.
+Branch `allow-ownership-link` is **out of sync** (red edge) to its parent &mdash; `develop`.
 Furthermore, it is **ahead of** its remote branch (`origin/develop`).
 With Git Machete we can quickly and conveniently lead it to a desired state.
 
