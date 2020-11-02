@@ -14,11 +14,11 @@ while also promoting creation of small PRs &mdash;
 **a git repository organizer, and a rebase/merge/push/pull automation tool, named Git Machete.**
 
 It allows for looking at the state of the repository from a previously inexperienceable perspective.
-It puts the primary focus on branches (rather than commits), their relationship to each other,
-and their relationship to the remote repository.
-Moreover, it provides both diagnostic and corrective functionalities
+It puts the primary focus on branches (rather than commits),
+their relationship to each other and also to the remote repository.
+Moreover, it gives both diagnostic and restorative functionalities
 for the shape of the repository and the mentioned relationships.
-It finds an exceptional application in maintaining linear Git history.
+It finds an outstanding application in maintaining linear Git history.
 
 
 ### Git Machete Status Graph
