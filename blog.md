@@ -52,7 +52,8 @@ The graph is automatically refreshed when `.git/machete` is modified.
 Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree.
 Feel free to use `Discover Branch Layout` functionality that will find it out for you automatically.
 It can be performed from `Help -> Find Action...` (default shortcut: `Ctrl + Shift + A`).
-
+Furthermore, the discover happens in the case of a missing or empty machete file
+(although the discovered layout might require some manual changes).
 
 ### Lights, Camera... Actions
 
