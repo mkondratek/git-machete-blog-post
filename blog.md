@@ -13,8 +13,6 @@ while also promoting creation of small PRs &mdash;
 It allows for looking at the state of the repository from a previously inexperienceable perspective.
 It puts the primary focus on branches (rather than commits),
 their relationship to each other and also to the remote repository.
-Moreover, it gives both diagnostic and restorative functionalities
-for the shape of the repository and the mentioned relationships.
 It finds an outstanding application in maintaining linear Git history.
 
 
@@ -36,7 +34,7 @@ The main features of the plugin are:
 The picture above presents the demo repository `filter-service` with a few branches.
 It contains two **root branches**: `develop` and `master`.
 The first of them has two **child branches**: `allow-ownership-link`
-(with another child branch &mdash; `build-chain`), and `call-ws`.
+(with a child branch of its own &mdash; `build-chain`), and `call-ws`.
 
 Each line contains a name of a branch, an optional custom annotation, and relation to the remote branch.
 
@@ -108,7 +106,7 @@ The final repository status is shown below.
 
 The idea standing behind the plugin is automating the developer's work.
 We (developers) should strive for focusing on actual development
-and spend less time organizing our work (with no loos for its results!).
+and spend less time organizing our work (with no loss for its results!).
 
 To be more precise and understand the technical background
 we should look closer to the consequences of big and small PRs.
@@ -122,7 +120,7 @@ They are less likely to skip vital parts of the newly-added code.
 It's much easier to keep the entire context in memory during the review.
 
 
-Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
+Creating and maintaining **small, focused, easy-to-review PRs** is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
 This is exactly what Git Machete is promoting.
 
