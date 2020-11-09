@@ -16,8 +16,6 @@ while also promoting creation of small PRs &mdash;
 It allows for looking at the state of the repository from a previously inexperienceable perspective.
 It puts the primary focus on branches (rather than commits),
 their relationship to each other and also to the remote repository.
-Moreover, it gives both diagnostic and restorative functionalities
-for the shape of the repository and the mentioned relationships.
 It finds an outstanding application in maintaining linear Git history.
 
 
@@ -28,7 +26,7 @@ It finds an outstanding application in maintaining linear Git history.
 The picture above presents the demo repository `filter-service` with a few branches.
 It contains two **root branches** &mdash; `develop` and `master`.
 The first of them has two **child branches** &mdash; `allow-ownership-link`
-(with another child branch &mdash; `build-chain`), and `call-ws`.
+(with a child branch of its own &mdash; `build-chain`), and `call-ws`.
 
 Each line contains a name of a branch, an optional custom annotation, and relation to the remote branch.
 
@@ -74,7 +72,7 @@ With Git Machete we can quickly and conveniently lead it to a desired state.
 
 First, `Checkout and Rebase Branch Onto Parent`.
 This will perform an interactive rebase from IntelliJ.
-Once the rebase is finished the branch is **in sync** (green edge) with its parent.
+Once the rebase is finished, the branch is **in sync** (green edge) with its parent.
 
 
 #### VCS Log Rebase
