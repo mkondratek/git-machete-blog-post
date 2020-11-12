@@ -1,12 +1,5 @@
 ## Take a look at your repository from a new perspective with Git Machete Plugin!
 
-Git and IntelliJ-based software are currently one of the most important tools in software development.
-The version control system provided with the JetBrains's IDE products
-allows performing pretty much all everyday VCS actions directly via the IDE.
-Despite the many benefits of the provided IDE and VCS integration,
-the state of more extensive (in terms of branch count) repositories presented in Git Log
-often gets non-intuitive and difficult to interpret.
-
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
 We created a plugin that eases the management of 2+ branches in the repository
