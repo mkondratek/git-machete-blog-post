@@ -1,7 +1,3 @@
-![GitMachete](logo.svg "Git Machete logo")
-
----
-
 ## Take a look at your repository from a new perspective with Git Machete Plugin!
 
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
@@ -9,6 +5,8 @@ for both the authors and, especially, the reviewers.
 We created a plugin that eases the management of 2+ branches in the repository
 while also promoting the creation of small PRs &mdash;
 **a git repository organizer and a rebase/merge/push/pull automation tool, named Git Machete.**
+
+![GitMachete](logo.svg "Git Machete logo")
 
 It allows for looking at the state of the repository from a previously unknown perspective.
 It puts the primary focus on branches (rather than commits),
