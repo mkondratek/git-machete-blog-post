@@ -1,4 +1,8 @@
-## Take a look at your repository from a new perspective with <img src="/home/mkondratek/IdeaProjects/blog/logo.svg" height="35"/> Plugin!
+![GitMachete](logo.svg "Git Machete logo")
+
+---
+
+## Take a look at your repository from a new perspective with Git Machete Plugin!
 
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
