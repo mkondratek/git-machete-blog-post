@@ -1,4 +1,4 @@
-## Take a look at your repository from a new perspective with Git Machete Plugin!
+## Take a look at your repository from a new perspective with <img src="/home/mkondratek/IdeaProjects/blog/logo.svg" height="35"/> Plugin!
 
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
@@ -14,7 +14,7 @@ It finds an outstanding application in maintaining linear Git history.
 
 ### Git Machete Status Graph
 
-![Git Machete Tab with demo repository](gmt_dark.png "Git Machete Tab")
+![Git Machete Tab with demo repository](gmt_dark.png# "Git Machete Tab")
 
 The picture above presents the demo repository `filter-service` with a few branches.
 It contains two **root branches** &mdash; `develop` and `master`.
