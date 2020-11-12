@@ -3,12 +3,12 @@
 Creating and maintaining small, focused, easy-to-review PRs is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
 We created a plugin that eases the management of 2+ branches in the repository
-while also promoting creation of small PRs &mdash;
-**a git repository organizer, and a rebase/merge/push/pull automation tool, named Git Machete.**
+while also promoting the creation of small PRs &mdash;
+**a git repository organizer and a rebase/merge/push/pull automation tool, named Git Machete.**
 
-It allows for looking at the state of the repository from a previously inexperienceable perspective.
+It allows for looking at the state of the repository from a previously unknown perspective.
 It puts the primary focus on branches (rather than commits),
-their relationship to each other and also to the remote repository.
+their relationship with each other and with the remote repository.
 It finds an outstanding application in maintaining linear Git history.
 
 
@@ -37,7 +37,7 @@ or pulling new commits to the parent from a remote.
 
 ![Machete file](machete-file_dark.png "Machete file")
 
-The branches presented within the graph are defined in a very simple configuration file (`.git/machete`),
+The branches presented within the graph are defined in a simple configuration file (`.git/machete`),
 which can be easily opened from the plugin's toolbar.
 It supports both syntax highlighting and completion of local branch names.
 The graph is automatically refreshed when `.git/machete` is modified.
@@ -45,7 +45,7 @@ The graph is automatically refreshed when `.git/machete` is modified.
 Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree.
 Feel free to use `Discover Branch Layout` functionality that will find it out for you automatically.
 It can be performed from `Help -> Find Action...` (default shortcut: `Ctrl + Shift + A`).
-Furthermore, the discover happens in the case of a missing or empty machete file
+Furthermore, the discovery happens in the case of a missing or empty machete file
 (although the discovered layout might require some manual changes).
 
 ### Lights, Camera... Actions
@@ -61,11 +61,11 @@ Let's have a look at the following example...
 
 Branch `allow-ownership-link` is **out of sync** (red edge) to its parent &mdash; `develop`.
 Furthermore, it is **ahead of** its remote branch (`origin/develop`).
-With Git Machete we can quickly and conveniently lead it to a desired state.
+With Git Machete we can quickly and conveniently lead it to the desired state.
 
 
 First, `Checkout and Rebase Branch Onto Parent`.
-This will perform an interactive rebase from IntelliJ.
+That will perform an interactive rebase from IntelliJ.
 Once the rebase is finished, the branch is **in sync** (green edge) with its parent.
 
 
@@ -89,5 +89,5 @@ The final repository status is shown below.
 
 ### Try it now
 
-The plugin is available from the [Marketplace](https://plugins.jetbrains.com/plugin/14221-git-machete "Jet Brains Marketplace - Git Machete Plugin"). <br/>
+The plugin is available from the [Marketplace](https://plugins.jetbrains.com/plugin/14221-git-machete "JetBrains Marketplace - Git Machete Plugin"). <br/>
 For additional reference, see the project on [GitHub](https://github.com/VirtusLab/git-machete-intellij-plugin#git-machete-intellij-plugin "GitHub - Git Machete Plugin").
