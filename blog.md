@@ -4,7 +4,7 @@ Git and IntelliJ-based software are currently one of the most important tools in
 The version control system provided with the JetBrains's IDE products
 allows performing pretty much all everyday VCS actions directly via the IDE.
 Among the many useful benefits of the provided IDE and VCS integration,
-the full support of GitHub Pull Requests introduced in IDEA 2020.2 must be emphasized.
+the full support of GitHub Pull Requests introduced in IDEA 2020.2 must be highlighted.
 
 We created a plugin that eases the management of 2+ branches in the repository
 while also promoting the creation of small PRs &mdash;
@@ -21,10 +21,10 @@ It finds an outstanding application in maintaining linear Git history.
 ## Git Machete
 
 The Git Machete plugin is a tool that helps developers handle multiple branches.
-The main features of the plugin are:
+The main objectives of the plugin include:
 - helps keep branches up to date even if (side effects of small PRs):
   - there many of them
-  - they're occasionally stacked on one another
+  - they're occasionally stacked on one another, e.g. `develop` -> `refactor/foo` -> `bugfix/bar`
 - promotes linear history but without strictly enforcing it in every case
 - gives a bird's eye view of the repo
 - automates common flows...
@@ -107,12 +107,13 @@ The final repository status is shown below.
 ## Motivation
 
 The idea standing behind the plugin is automating the developer's work.
-We (developers) should strive for focusing on actual development
+One should strive for focusing on actual software engineering
 and spend less time organizing our work (with no loss for its results!).
 
 To be more precise and understand the technical background
 we should look closer to the consequences of big and small PRs.
-**Big PRs are bad.** Reviewers are unwilling to even begin the review.
+**Big PRs are bad,** especially if they mix refactors with bugfixes and new features.
+Reviewers are unwilling to even begin the review.
 They are more likely to skip vital parts of the newly-added code.
 It's hard/impossible to keep entire context in memory during review.
 
@@ -133,7 +134,7 @@ Git Machete plugin is being developed and maintained continuously.
 We are doing our best to provide new features and quickly react to the users' feedback.
 We are responding to the new issues and ideas.
 
-The feature that we are definitely aiming for now is the traverse functionality
+The feature that we are definitely aiming for now is the semi-automatic traversal functionality
 which would allow you to interactively go through the whole branch layout tree
 and apply necessary actions (rebases, pushes, etc.) in order to get every branch in syncs.
 
