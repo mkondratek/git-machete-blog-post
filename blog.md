@@ -29,7 +29,7 @@ The main features of the plugin are:
 - gives a bird's eye view of the repo
 - automates common flows...
 
-#### Git Machete Status Graph
+### Git Machete Status Graph
 
 ![Git Machete Tab with demo repository](gmt_dark.png# "Git Machete Tab")
 
@@ -50,7 +50,7 @@ In most cases, an edge becomes red after committing some changes to the parent b
 or pulling new commits to the parent from a remote.
 
 
-#### Machete File
+### Machete File
 
 ![Machete file](machete-file_dark.png "Machete file")
 
@@ -66,7 +66,7 @@ Furthermore, the discovery happens in the case of a missing or empty machete fil
 (although the discovered layout might require some manual changes).
 
 
-#### Lights, Camera... Actions
+### Lights, Camera... Actions
 
 The plugin provides a bunch of actions that can help you to manage your repository.
 
@@ -86,10 +86,10 @@ That will perform an interactive rebase from IntelliJ.
 Once the rebase is finished, the branch is **in sync** (green edge) with its parent.
 
 
-##### VCS Log Rebase
+#### VCS Log Rebase
 ![Git Machete - Rebase](rebase-idea_dark-4x3.gif "Rebase From VCS Log")
 
-##### Git Machete Rebase
+#### Git Machete Rebase
 ![Git Machete - Rebase](rebase-gm_dark-4x3.gif "Rebase From Git Machete")
 
 
@@ -104,7 +104,7 @@ The final repository status is shown below.
 ![Git Machete - Actions](actions-after_dark.png "Git Machete - Actions - After")
 
 
-### Motivation
+## Motivation
 
 The idea standing behind the plugin is automating the developer's work.
 We (developers) should strive for focusing on actual development
@@ -127,7 +127,7 @@ for both the authors and, especially, the reviewers.
 This is exactly what Git Machete is promoting.
 
 
-### The future of Git Machete
+## The future of Git Machete
 
 Git Machete plugin is being developed and maintained continuously.
 We are doing our best to provide new features and quickly react to the users' feedback.
@@ -138,7 +138,7 @@ which would allow you to interactively go through the whole branch layout tree
 and apply necessary actions (rebases, pushes, etc.) in order to get every branch in syncs.
 
 
-### Learn more
+## Learn more
 
 The plugin is available from the [Marketplace](https://plugins.jetbrains.com/plugin/14221-git-machete "JetBrains Marketplace - Git Machete Plugin").
 It may differ a bit from presented version as some improvements may had been provided with the newest release.
