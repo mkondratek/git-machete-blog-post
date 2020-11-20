@@ -115,7 +115,7 @@ we should look closer to the consequences of big and small PRs.
 **Big PRs are bad,** especially if they mix refactors with bugfixes and new features.
 Reviewers are unwilling to even begin the review.
 They are more likely to skip vital parts of the newly-added code.
-It's hard/impossible to keep entire context in memory during review.
+It's hard/impossible to keep the entire context in memory during a review.
 
 On the contrary, **small PRs are beneficial**.
 Reviewers are more willing to begin the review.
@@ -125,14 +125,14 @@ It's much easier to keep the entire context in memory during the review.
 
 Creating and maintaining **small, focused, easy-to-review PRs** is a comfortable and desired approach
 for both the authors and, especially, the reviewers.
-This is exactly what Git Machete is promoting.
+That is exactly what Git Machete is promoting.
 
 
 ## The future of Git Machete
 
 Git Machete plugin is being developed and maintained continuously.
 We are doing our best to provide new features and quickly react to the users' feedback.
-We are responding to the new issues and ideas.
+We are responding to new issues and ideas.
 
 The feature that we are definitely aiming for now is the semi-automatic traversal functionality
 which would allow you to interactively go through the whole branch layout tree
@@ -142,7 +142,7 @@ and apply necessary actions (rebases, pushes, etc.) in order to get every branch
 ## Learn more
 
 The plugin is available from the [Marketplace](https://plugins.jetbrains.com/plugin/14221-git-machete "JetBrains Marketplace - Git Machete Plugin").
-It may differ a bit from presented version as some improvements may had been provided with the newest release.
+It may differ a bit from the presented version as some improvements may have been provided with the newest release.
 
 For additional reference, see the project on [GitHub](https://github.com/VirtusLab/git-machete-intellij-plugin#git-machete-intellij-plugin "GitHub - Git Machete Plugin").
 Feel free to open new issues (both bug reports and feature requests are welcome).
