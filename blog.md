@@ -46,7 +46,7 @@ The graph is automatically refreshed when `.git/machete` is modified.
 
 Bear in mind that there is no need to edit the machete file manually to set up your branch layout tree.
 Feel free to use `Discover Branch Layout` functionality that will find it out for you automatically.
-It can be performed from `Help -> Find Action...` (default shortcut: `Ctrl + Shift + A`).
+It can be performed from the toolbar - it is a first action with ![Machete logo icon](macheteLogoIcon.png "Machete Logo Icon") icon.
 Furthermore, the discovery happens in the case of a missing or empty machete file
 (although the discovered layout might require some manual changes).
 
@@ -54,8 +54,8 @@ Furthermore, the discovery happens in the case of a missing or empty machete fil
 
 The plugin provides a bunch of actions that can help you to manage your repository.
 
-Among the others, there is `Rebase onto Parent`
-(that performs interactive rebase of a given branch onto its parent), `Push` and `Pull`.
+Among the others, there is `Sync by Rebase`
+(that performs interactive rebase of a given branch onto its parent), `Sync by Merge`, `Push` and `Pull`.
 Let's have a look at the following example...
 
 ![Git Machete - Actions](actions-before_dark.png "Git Machete - Actions - Before")
@@ -66,7 +66,7 @@ Furthermore, it is **ahead of** its remote branch (`origin/develop`).
 With Git Machete we can quickly and conveniently lead it to the desired state.
 
 
-First, `Checkout and Rebase Branch Onto Parent`.
+First, `Checkout and Sync to Parent by Rebase...`.
 That will perform an interactive rebase from IntelliJ.
 Once the rebase is finished, the branch is **in sync** (green edge) with its parent.
 
